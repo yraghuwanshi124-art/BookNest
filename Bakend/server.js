@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 require("dotenv").config();
+require("dns").setServers(["8.8.8.8", "8.8.4.4"]);
 const User = require("./models/User");
 const Book = require("./models/Book");
 const bcrypt = require("bcryptjs");
@@ -19,6 +20,7 @@ mongoose
   .connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB Connected Successfully!"))
   .catch((err) => console.error("MongoDB Connection Error:", err.message));
+  
 
 app.get("/", (req, res) => {
   res.send("Welcome to BookNest Backend!");
