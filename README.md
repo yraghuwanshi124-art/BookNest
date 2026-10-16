@@ -21,7 +21,7 @@ BookNest is a book review web application built using the MERN stack. Users can 
 *Note: Update this list to match the features that are actually implemented in your deployed project.*
 
 ## 🌐 Live Demo
-- **Frontend:** [PASTE YOUR VERCEL FRONTEND URL]
+- **Frontend:** https://book-nest-black-psi.vercel.app/
 - **Backend:** https://booknest-bakend.onrender.com/
 - **GitHub Repository:** [PASTE YOUR PUBLIC GITHUB REPOSITORY URL]
 
